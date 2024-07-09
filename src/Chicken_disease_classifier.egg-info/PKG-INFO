@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Chicken-disease-classifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/yagnesh2003/chicken-disease-classification-DL-proj
+Author: yagnesh2003
+Author-email: dave.1@iitj.ac.in
+Project-URL: Bug Tracker, https://github.com/yagnesh2003/chicken-disease-classification-DL-proj/issues
+
+## Create a template.py file : 
+
+This file is used to automatically create a project structure. Instead of making the project structure everytime , 
+we just need to run this file and it will automatically create project structure

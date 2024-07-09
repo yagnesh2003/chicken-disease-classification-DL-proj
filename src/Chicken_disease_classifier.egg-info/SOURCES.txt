@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/Chicken-disease-classifier/__init__.py
+src/Chicken-disease-classifier/components/__init__.py
+src/Chicken-disease-classifier/config/__init__.py
+src/Chicken-disease-classifier/config/configuration.py
+src/Chicken-disease-classifier/constants/__init__.py
+src/Chicken-disease-classifier/entity/__init__.py
+src/Chicken-disease-classifier/pipeline/__init__.py
+src/Chicken-disease-classifier/utils/__init__.py
+src/Chicken_disease_classifier.egg-info/PKG-INFO
+src/Chicken_disease_classifier.egg-info/SOURCES.txt
+src/Chicken_disease_classifier.egg-info/dependency_links.txt
+src/Chicken_disease_classifier.egg-info/top_level.txt
