@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "chicken-disease-classification-DL-proj"
 AUTHOR_USER_NAME = "yagnesh2003"
-SRC_REPO = "Chicken-disease-classifier"
+SRC_REPO = "chicken_disease_classifier"
 AUTHOR_EMAIL = "dave.1@iitj.ac.in"
 
 
