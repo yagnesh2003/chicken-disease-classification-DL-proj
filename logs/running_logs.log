@@ -87,3 +87,80 @@ x==========x]
 [2024-07-11 17:35:38,898: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
 
 x==========x]
+[2024-07-11 17:48:25,765: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-11 17:48:25,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-11 17:48:25,769: INFO: common: created directory at: artifacts]
+[2024-07-11 17:48:25,770: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-07-11 17:48:25,771: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-07-11 17:58:55,790: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-11 17:58:55,795: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-11 17:58:55,795: INFO: common: created directory at: artifacts]
+[2024-07-11 17:58:55,796: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-07-11 17:58:55,798: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-07-11 18:12:13,612: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-11 18:12:13,619: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-11 18:12:13,623: INFO: common: created directory at: artifacts]
+[2024-07-11 18:12:13,625: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-07-11 18:12:13,625: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-07-11 18:12:58,848: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-11 18:12:58,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-11 18:12:58,853: INFO: common: created directory at: artifacts]
+[2024-07-11 18:12:58,853: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-07-11 18:12:58,859: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-07-11 18:12:58,861: INFO: common: created directory at: artifacts\training]
+[2024-07-11 18:20:53,135: INFO: main: >>>>>> Data Ingestion stage started <<<<<<]
+[2024-07-11 18:20:53,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-11 18:20:53,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-11 18:20:53,144: INFO: common: created directory at: artifacts]
+[2024-07-11 18:20:53,145: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-11 18:20:57,201: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1B42:192DBD:445F1F:57E987:668FCA8F
+Accept-Ranges: bytes
+Date: Thu, 11 Jul 2024 12:50:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21733-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1720702256.827215,VS0,VE350
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a646223e8b5eb4f1368d9e4031f45d2e48b39070
+Expires: Thu, 11 Jul 2024 12:55:56 GMT
+Source-Age: 0
+
+]
+[2024-07-11 18:20:57,601: INFO: main: >>>>>> Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-11 18:20:57,601: INFO: main: *******************]
+[2024-07-11 18:20:57,601: INFO: main: >>>>>> Prepare Base Model started <<<<<<]
+[2024-07-11 18:20:57,606: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-11 18:20:57,610: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-11 18:20:57,611: INFO: common: created directory at: artifacts]
+[2024-07-11 18:20:57,612: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-11 18:20:58,263: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-11 18:20:58,650: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
+
+x==========x]
+[2024-07-11 18:20:58,650: INFO: main: *******************]
+[2024-07-11 18:20:58,650: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-11 18:20:58,660: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-11 18:20:58,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-11 18:20:58,668: INFO: common: created directory at: artifacts]
+[2024-07-11 18:20:58,670: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-07-11 18:20:58,670: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-07-11 18:20:58,674: INFO: common: created directory at: artifacts\training]
+[2024-07-11 18:21:23,551: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
