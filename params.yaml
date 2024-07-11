@@ -1,8 +1,8 @@
 AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
 BATCH_SIZE: 16
-INCLUDE_TOP: False
+INCLUDE_TOP: False   # As I don't want training from scratch , i want pre-trained model
 EPOCHS: 1
-CLASSES: 2
+CLASSES: 2   # Thereare two classes 1: Coccidiosis 2: Normal
 WEIGHTS: imagenet
 LEARNING_RATE: 0.01
