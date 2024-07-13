@@ -427,3 +427,11 @@ x==========x]
 [2024-07-13 17:31:58,286: INFO: stage04_evaluation: >>>>>> Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-07-13 17:50:41,713: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.5:8080]
+[2024-07-13 17:50:41,713: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-13 17:51:04,531: INFO: _internal: 127.0.0.1 - - [13/Jul/2024 17:51:04] "GET / HTTP/1.1" 200 -]
+[2024-07-13 17:51:41,995: INFO: _internal: 127.0.0.1 - - [13/Jul/2024 17:51:41] "POST /predict HTTP/1.1" 200 -]
+[2024-07-13 17:51:54,867: INFO: _internal: 127.0.0.1 - - [13/Jul/2024 17:51:54] "POST /predict HTTP/1.1" 200 -]
